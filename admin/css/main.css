@@ -1,0 +1,26 @@
+#outContainer{
+    color:white;
+    width:80%;
+    margin-left: 10%;
+    background: rgba(255,255,255,0.5);
+    padding: 20px 20px 20px 20px;
+    border-radius:20px;
+    height:800px;
+}
+
+.auth{
+    float:left;
+}
+
+#graphs{
+    clear:left;
+}
+
+.metric{
+    width:50%;
+    float:left;
+}
+
+body{
+    margin:auto 0;
+}

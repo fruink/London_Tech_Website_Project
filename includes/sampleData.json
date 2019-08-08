@@ -1,0 +1,14 @@
+{
+    "cols":[
+      {"id":" ", "label":"Year","pattern":" ","type":"string"},
+      {"id":"","label":"London Wage","pattern":"","type":"number"}
+    ],
+    "rows": [
+          {"c":[{"v":"2014","f":null},{"v":1000,"f":null}]},
+          {"c":[{"v":"2015","f":null},{"v":600,"f":null}]},
+          {"c":[{"v":"2016","f":null},{"v":1170,"f":null}]},
+          {"c":[{"v":"2017","f":null},{"v":1030,"f":null}]}
+        ]
+  
+  }
+  

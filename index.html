@@ -1,0 +1,165 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L.E.D.C</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <header>
+      <div id="mySideNav" class="sidenav hide-for-large hide-for-medium">
+        <a href="javascript:void(0)" class="closebtn" id="closer">&times;</a>
+        <a href="#about" id="mLink1">About</a>
+        <a href="#whyL" id="mLink2">Why</a>
+        <a href="#whoh" id="mLink3">Who's Hiring</a>
+        <a href="#cont" id="mLink4">Contact</a>
+        <a href="admin/admin_login.php" id='mLink5'>Log In</a>
+    </div>
+    <img id="opener" src="img/hamburgerIcon.png" alt="Menu Open Button" class="hide-for-large hide-for-medium">
+      <nav class="hide-for-small-only">
+        <ul>
+          <li><a href="#about" class="topNav">About</a></li>
+          <li><a href="#whyL" class="topNav">Why</a></li>
+          <li><a href="#whoh" class="topNav">Who's Hiring</a></li>
+          <li><a href="#cont" class="topNav">Contact</a></li>
+          <li><a href="admin/admin_login.php" class="topNav">Log In</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="splash" >
+      <video id="backgroundVideo" autoplay loop muted>
+        <source src="assets/stock.mp4" type="video/mp4">
+        Alternative Content Goes Here
+      </video>
+      <img src="img/logo.png" alt="LEDC Logo" id="logo">
+    </section>
+    <section id="about" >
+      <h2 class="hide">Home Screen</h2>
+      <div class="grid-x">
+        <h2 class="large-5 large-offset-1 medium-5 medium-offset-1 small-6 small-offset-1 cell "><span class="lowerTitle">London </span><br>Tech Industry</h2>
+      </div>
+      <div class="grid-x">
+        <h3 class="hide">About LEDC</h3>
+        <p id="paragraph" class="large-4 large-offset-1 medium-4 medium-offset-1 small-4 small-offset-1 cell">London Ontario is home to hundreds of thriving tech companies that are always looking for new talent and hardworking individuals who could become a great asset to their teams. Some of London's industry leaders are 3M Canada, Trojan Technologies, and General Dynamics. London has many community events, fairs, festivals, concerts, resturants, and local shopping suited for everyone. London is yours to explore!</p>
+        <img id="map" class="large-5 large-offset-1 medium-6 medium-offset-1 small-6 small-offset-1 cell" alt="Map of Canada" src="img/map.png">
+      </div>
+    </section>
+    <section id="why" >
+      <div class="grid-x">
+        <h2 class="large-5 large-offset-1 medium-5 medium-offset-1 small-5 small-offset-1 cell ">Why <br> London</h2>
+      </div>
+      <div id="whygrid" class="grid-x">
+      <div class="large-2 large-offset-1 medium-2 medium-offset-1 small-4 small-offset-2 cell why">
+        <div class="whyImage" alt="Minimum Wage Icon" id='minwageimg'></div>
+        <h3 class="whyTitle" id="title1">Average Income</h3>
+        <p class="whyWords" id="words1">Average employment income in 2015 for full-year full-time workers. London has many opportunities that will increase your annual gross pay.</p>
+      </div>
+      <div class="large-2 large-offset-1 medium-2 medium-offset-1 small-4 small-offset-1 cell why">
+        <div class="whyImage" alt="Housing Icon" id='housingimg'></div>
+        <h3 class="whyTitle" id="title2"> Housing</h3>
+        <p class="whyWords" id="words2">Median value of dwellings. A fast growing and affordable housing market for all residents that live in the city.</p>
+      </div>
+      <div class="large-2 large-offset-1 medium-2 medium-offset-1 small-4 small-offset-2 cell why">
+        <div class="whyImage" alt="Jobs Icon" id='jobsimg'></div>
+        <h3 class="whyTitle" id="title3">Jobs</h3>
+        <p class="whyWords" id="words3">London's unemployment rate as of November 2017, has decreased 0.5% compared to last year.</p>
+      </div>
+      <div class="large-2 large-offset-1 medium-2 medium-offset-1 small-4 small-offset-1 cell why">
+        <div class="whyImage" alt="Education Icon" id='educationimg'></div>
+        <h3 class="whyTitle" id="title4">Education</h3>
+        <p class="whyWords" id="words4">Percentage of the population in London with a post-secondary certificate, diploma or degree.</p>
+      </div>
+    </div>
+    </section>
+    <section id="who" >
+      <div class="grid-x">
+        <div class="large-4 large-offset-0 medium-4 medium-offset-1 small-7 cell" id="hiringColumn">
+          <h2>Who's <br> Hiring</h2>
+          <p>London Ontario is a digital creative tech destination that is continually looking to employ talented skilled professionals. Why not take advantage and see what London Ontario has to offer. London Tech has several open job positions currently looking for new talent, check out the companies that are hiring now!</p>
+          <div id="whiteLine"></div>
+        </div>
+        <div class="grid-x large-5 large-offset-1 medium-5 small-5 cell">
+          <h3 class="hide">Available Jobs</h3>
+        <div class="hiringContainer">
+          <img src='img/TD.png' class="hiring topHiring">
+          <img src='img/adhome.png' class="hiring">
+          <img src='img/Diply-Logo.png' class="hiring">
+        </div>
+        <div class="hiringContainer hide-for-small-only">
+          <img src='img/tbk-logo.png' class="hiring topHiring">
+          <img src='img/trogan.png' class="hiring">
+          <img src='img/startech.jpg' class="hiring">
+        </div>
+        <div id="circleContainer">
+          <div class="circle fillIn" id="numbuhOne"></div>
+          <div class="circle" id="numbuhTwo"></div>
+          <div class="circle" id="numbuhThree"></div>
+          <div class="circle" id="numbuhFour"></div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section id="video" >
+      <video id="mainVideo" controls>
+        <source src="assets/ledc_vid_1_compressed.mp4" type="video/mp4">
+        <source src="assets/ledc_vid_1_compressed.ogg" type="video/ogg">
+      </video>
+    </section>
+    <section class="grid-x" id="news" >
+      <div class="large-4 medium-4 small-4 cell" id="newsText">
+        <h2 id='articleTitle'>Article Title</h2>
+        <p id='post'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus nisi, porttitor nec orci a, bibendum placerat neque. Ut nec faucibus mi. Morbi eget lobortis quam, quis porttitor risus. Curabitur tincidunt a nunc sit amet scelerisque. Phasellus ultricies augue eu lectus volutpat, non lobortis nunc interdum. Phasellus ipsum est, placerat a accumsan et, tincidunt eget dui.</p>
+      </div>
+      <img class="large-7 large-offset-1  medium-7 medium-offset-1 small-7 small-offset-1 cell" id="newsImage" src='img/newsBackground.jpg'>
+    </section>
+    <section>
+      <h2 class="hide">Contact Screen</h2>
+      <div id="innerContainer" class="grid-x">
+        <div id="leftside" class="large-6 medium-6 cell">
+          <h3>London <br> Tech</h3>
+          <p id="variouslinks">Visit Us On Social Media</p>
+          <div id="firstSocial" class="social"><a><img src="img/twitter.png" alt="twitter Logo"></a></div>
+          <div class="social"><a><img src="img/insta.png" alt="Instagram Logo"></a></div>
+          <div class="social"><a><img src="img/youtube.png" id="youtubeLogo" alt="Youtube Logo"></a></div>
+          <div class="social"><a><img src="img/facebook.png" alt="Facebook Logo"></a></div>
+          <div class="social"><a><img src="img/linkedin.png" alt="LinkedIn Logo"></a></div>
+        </div>
+        <div id="rightside" class="large-6 medium-6 cell">
+          <h3>Contact Us!</h3>
+          <form method="post" action="contact.php">
+          <input class="shortform" type="text" placeholder="Name" name = 'name'>
+          <input class="shortform" type ="text" placeholder = "Email Address" name = 'email'>
+          <input class="shortform" type = "text" placeholder = "Subject" name = 'subject'>
+          <textarea id="tallform" name = 'message' placeholder="enter your message"></textarea>
+          <input id="formbutton" type="submit" value="submit" name='submit'>
+          </form>
+        </div>
+      </div>
+      <div class="grid-x" id='footer'>
+        <h3 class="hide">Footer</h3>
+        <img src="img/logo.png" alt="Logo" id="footerLogo" class="large-1 large-offset-1 medium-2 medium-offset-1 small-2 small-offset-1 cell">
+        <ul class="large-2 large-offset-1 medium-2 medium-offset-1 small-2 small-offset-1 cell">
+          <li class="footerItems topItem">Resources</li>
+          <li class="footerItems">Statistics</li>
+          <li class="footerItems">Funding</li>
+          <li class="footerItems">PartnerShips</li>
+        </ul>
+        <ul class="large-2 medium-2 small-2 cell">
+          <li class="footerItems topItem">Directory</li>
+          <li class="footerItems">Market</li>
+        </ul>
+        <ul class="large-2 medium-2 small-2 cell">
+          <li class="footerItems topItem">About</li>
+          <li class="footerItems">Staff Contacts</li>
+        </ul>
+      </div>
+    </section>
+    <script src="js/app.js"></script>
+    <script src="js/dynamic.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "cols":[
+    {"id":" ", "label":"Month","pattern":" ","type":"string"},
+    {"id":"","label":"New Employers","pattern":"","type":"number"},
+    {"id":"","label":"Leads","pattern":"","type":"number"}
+  ],
+  "rows": [
+        {"c":[{"v":"2015","f":null},{"v":1000,"f":null},{"v":400,"f":null}]},
+        {"c":[{"v":"2016","f":null},{"v":1170,"f":null},{"v":460,"f":null}]},
+        {"c":[{"v":"2017","f":null},{"v":600,"f":null},{"v":1120,"f":null}]},
+        {"c":[{"v":"2018","f":null},{"v":1030,"f":null},{"v":540,"f":null}]}
+      ]
+
+}

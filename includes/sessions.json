@@ -1,0 +1,14 @@
+{
+  "cols":[
+    {"id":" ", "label":"Year","pattern":" ","type":"string"},
+    {"id":"","label":"London","pattern":"","type":"number"},
+    {"id":"","label":"Toronto","pattern":"","type":"number"}
+  ],
+  "rows": [
+        {"c":[{"v":"2014","f":null},{"v":600,"f":null},{"v":800,"f":null}]},
+        {"c":[{"v":"2015","f":null},{"v":900,"f":null},{"v":1100,"f":null}]},
+        {"c":[{"v":"2016","f":null},{"v":1200,"f":null},{"v":1400,"f":null}]},
+        {"c":[{"v":"2017","f":null},{"v":1500,"f":null},{"v":1700,"f":null}]}
+      ]
+
+}

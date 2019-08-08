@@ -1,0 +1,14 @@
+{
+  "cols":[
+    {"id":" ", "label":"Month","pattern":" ","type":"string"},
+    {"id":"","label":"With Degree","pattern":"","type":"number"},
+    {"id":"","label":"Without Degree","pattern":"","type":"number"}
+  ],
+  "rows": [
+        {"c":[{"v":"2014","f":null},{"v":1000,"f":null},{"v":400,"f":null}]},
+        {"c":[{"v":"2015","f":null},{"v":1100,"f":null},{"v":600,"f":null}]},
+        {"c":[{"v":"2016","f":null},{"v":1200,"f":null},{"v":500,"f":null}]},
+        {"c":[{"v":"2017","f":null},{"v":1330,"f":null},{"v":400,"f":null}]}
+      ]
+
+}

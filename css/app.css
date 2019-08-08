@@ -1,0 +1,1360 @@
+header {
+  background-color: black;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  z-index: 2; }
+
+.contentForm label{
+  color: white;
+  font-size: 0.7em;
+}
+
+.contentsubmit{
+  width:30%;
+  margin-left:35%;
+  margin-top:10%;
+}
+
+.contentFormInput{
+  width:90%;
+  margin-left:5%;
+}
+
+.contentForm textarea{
+  width: 90%;
+  margin-left:5%;
+}
+
+#djobs{
+  overflow: scroll;
+  height:300px;
+}
+
+.innner{
+  width:96%;
+  margin-left:2%;
+}
+
+#contactInner{
+  width:60%;
+  margin-left:20%;
+  padding: 20px 20px 20px 20px;
+  border-radius: 20px;
+  background:rgba(255,255,255,0.3);
+  text-align: center;
+  color:white;
+  height:300px;
+  padding-top:80px;
+}
+
+#minwageimg{
+  background-image: url(../img/graph1.png);
+  background-size: contain;
+}
+
+#housingimg{
+  background-image: url(../img/graph2.png);
+  background-size: contain;
+}
+
+#jobsimg{
+  background-image: url(../img/graph3.png);
+  background-size: contain;
+}
+
+#educationimg{
+  background-image: url(../img/graph4.png);
+  background-size: contain;
+}
+
+#deleteJob{
+  overflow: scroll;
+  height:400px;
+}
+
+a {
+  text-decoration: none;
+  color: black; }
+
+a:hover {
+  color: purple; }
+
+.topNav {
+  color: white; }
+
+.lowerTitle {
+  color: #041b8d; }
+
+.topItem {
+  font-weight: bold;
+  margin-bottom: 10px; }
+
+#whiteLine {
+  width: 30%;
+  height: 10px;
+  margin-top: -20%;
+  margin-left: 15%;
+  background-color: white; }
+
+#backgroundVideo {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: -1; }
+
+nav {
+  color: white;
+  width: 50%;
+  margin-left: 32%;
+  padding-top: 1%; }
+  nav ul li {
+    display: inline;
+    margin-left: 5%;
+    font-size: 1.5em; }
+
+#splash {
+  height: 1000px;
+  width: 100%; }
+
+#logo {
+  width: 25%;
+  margin-left: 36%;
+  margin-top: -1050px;
+  position: relative;
+  z-index: 1; }
+
+#paragraph {
+  margin-top: 50px;
+  height: 400px; }
+
+#map {
+  height: 700px;
+  margin-top: -170px; }
+
+#about {
+  height: 800px; }
+  #about h2 {
+    margin-top: 40px;
+    font-size: 4em; }
+
+#why {
+  height: 800px;
+  background: url(../img/whybackground.jpg);
+  background-size: cover;
+  color: white; }
+  #why h2 {
+    margin-top: 40px;
+    font-size: 4em;
+    margin-bottom: 50px; }
+
+#whygrid {
+  width: 90%; }
+
+.why {
+  height: 300px; }
+
+.whyImage {
+  background-color:green;
+  width: 100%;
+  margin-left: 0%;
+  height: 170px; }
+
+.whyTitle {
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+  font-size: 1.6em;
+  text-align: center;
+  margin-bottom: 30px; }
+
+.whyWords {
+  width: 100%;
+  height: 220px; }
+
+.hiring {
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  height: 200px;
+  border-style: solid;
+  margin-bottom: 10px; }
+
+.hiringContainer {
+  width: 40%;
+  height: 680px;
+  margin-left: 10%;
+  margin-top: 70px; }
+
+#hiringColumn {
+  height: 700px;
+  text-align: center;
+  margin-top: 100px;
+  background-color: #080852;
+  color: white; }
+  #hiringColumn h2 {
+    font-size: 3em;
+    margin-left: -30%; }
+  #hiringColumn p {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 40px;
+    height: 450px;
+    text-align: left; }
+
+.topHiring {
+  margin-top: 30px; }
+
+#who {
+  height: 800px; }
+
+#circleContainer {
+  height: 70px;
+  width: 40%;
+  float: right;
+  margin-left: 8%; }
+
+.circle {
+  border-radius: 50%;
+  border: solid;
+  width: 11%;
+  margin-left: 5%;
+  height: 30px;
+  margin-top: 15px;
+  float: left; }
+
+.fillIn {
+  background-color: black; }
+
+#video {
+  margin-top: 80px; }
+
+#mainVideo {
+  height: 600px;
+  width: 80%;
+  margin-left: 10%; }
+
+#thumbContainer {
+  width: 80%;
+  margin-left: 10%; }
+
+.thumb {
+  height: 200px;
+  background-color: #04043c;
+  width: 80%;
+  margin-left: 9%;
+  border: solid;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: white;
+  text-align: center; }
+
+.thumbImage {
+  background: url(../img/testBackground1.jpg);
+  background-size: contain;
+  height: 194px; }
+
+.top {
+  width: 60%;
+  height: 30px;
+  margin-left: 20%;
+  margin-top: 10px; }
+
+.middle {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: -15px;
+  margin-bottom: 30px;
+  height: 80px; }
+
+.bottom {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 15px;
+  height: 30px; }
+
+#newsText {
+  height: 500px;
+  text-align: center; }
+  #newsText h2 {
+    margin-top: 10%;
+    margin-bottom: 10%; }
+  #newsText p {
+    margin-bottom: 10%; }
+
+#newsImage {
+  height: 500px; }
+
+#news {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 50px; }
+
+#innerContainer {
+  width: 100%;
+  height: 600px;
+  margin-top: 70px;
+  background: url(../img/footerBackground.jpg);
+  background-size: cover;
+  color: white; }
+
+#leftside {
+  height: 600px;
+  padding-top: 4%; }
+  #leftside h3 {
+    text-align: center;
+    font-size: 4em; }
+  #leftside #variouslinks {
+    width: 35%;
+    margin: 0 auto;
+    height: 40px;
+    margin-top: 6%;
+    font-size: 1.2em;
+    text-align: center; }
+
+.social {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%; }
+
+#firstSocial {
+  margin-left: 25%; }
+
+#rightside {
+  height: 600px;
+  background: rgba(18, 18, 43, 0.7); }
+  #rightside h3 {
+    text-align: center;
+    margin-top: 3%; }
+
+.shortform {
+  width: 70%;
+  height: 40px;
+  background-color: white;
+  margin-left: 15%;
+  margin-top: 3%;
+  text-align: center; }
+
+#tallform {
+  width: 70%;
+  height: 180px;
+  margin-left: 15%;
+  background-color: white;
+  margin-top: 5%; }
+
+#formbutton {
+  width: 30%;
+  height: 40px;
+  margin-left: 35%;
+  background-color: white;
+  margin-top: 7%; }
+
+#footer {
+  height: 200px;
+  padding-top: 30px;
+  width: 100%;
+  background-color: #04043c; }
+
+.footerItems {
+  color: white;
+  list-style: none;
+  height: 20px;
+  margin-bottom: 15px; }
+
+#footerLogo {
+  height: 100px; }
+
+#logincontainer{
+  width:100%;
+  background: url(../img/whybackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:960px;
+  padding-top:8%;
+  overflow: scroll;
+}
+
+
+#loginform{
+  width:50%;
+  margin-left:24.5%;
+  padding-left: 10%;
+  padding-right:10%;
+  background:rgba(58, 58, 58, 0.5);
+  border-radius: 15px;
+  padding-top:2%;
+  padding-bottom:2%;
+  animation-name: slideup;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+}
+
+#userloginlabel{
+  color: white;
+  font-size: 2em;
+}
+
+#passwordloginlabel{
+  color: white;
+  font-size: 2em;
+}
+
+#logingreeting{
+  color: white;
+  margin-left: 39%;
+  font-size: 5em;
+}
+
+#loginsubgreeting{
+  color:white;
+  margin-left:32%;
+  margin-bottom:3%;
+}
+
+#submitButton{
+  margin-left:35%;
+  width:30%;
+  height:50px;
+  border-radius:12px;
+}
+
+#loginHeader{
+  height:90px;
+}
+
+#loginlogo{
+  width:5%;
+  margin-top:0.5%;
+  margin-left:3%;
+}
+
+#backLink{
+  float:right;
+  color:white;
+  margin-right: 5%;
+  font-size: 1.25em;
+  margin-top:2%;
+}
+
+#greetings{
+  animation-name: slideup;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+#fader{
+  opacity:0;
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+#fader2{
+  opacity:0;
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+}
+
+@keyframes slideup {
+    from {margin-top: 7%;}
+    to {margin-top: 0%;}
+}
+
+@keyframes fadein {
+  from{opacity: 0;}
+  to {opacity: 1;}
+
+}
+
+#indexGreeting{
+  color:white;
+  text-align: center;
+  font-size:3em;
+  animation-name: slideup;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  margin-bottom: 10%;
+}
+
+.linkContainer{
+  float:left;
+  width:16%;
+  margin-left: 2%;
+  margin-right:2%;
+  background:rgba(100, 100, 100, 0.5);
+  color:white;
+  animation-name: slideup;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+  border-radius: 15px;
+  height:300px;
+  text-align: center;
+  padding:30px 15px 15px 15px;
+
+}
+
+.linkContainer a{
+  color:white;
+  font-size: 2em;
+}
+
+.linkContainer a:hover{
+  color:purple;
+}
+
+.linkContainer p{
+  margin-top: 40px;
+}
+
+#indexFader{
+  opacity: 0;
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+#signout{
+  height:150px;
+}
+
+.fadebox{
+  opacity: 0;
+  animation-name: fadein;
+  animation-duration: 0.5s;
+  animation-delay: 0.25s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+#createheader{
+  color:white;
+  text-align: center;
+  font-size: 3em;
+  animation-name: slideup;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+#createUserForm{
+  width:50%;
+  margin-left: 25%;
+  background: rgba(100, 100, 100, 0.5);
+  border-radius:15px;
+  padding: 20px 20px 20px 20px;
+  animation-name: slideup;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+#editUserForm{
+  width:50%;
+  margin-left: 25%;
+  background: rgba(100, 100, 100, 0.5);
+  border-radius:15px;
+  padding: 20px 20px 20px 20px;
+  animation-name: slideup;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+#editUserForm label{
+  color:white;
+  font-size: 2em;
+  margin-left: 10%;
+}
+
+.createInput{
+  width:80%;
+  margin-left: 10%;
+}
+
+#createUserForm label{
+  color:white;
+  font-size: 2em;
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#lvllist{
+  width:40%;
+  margin-left: 30%;
+}
+
+#submitUser{
+  width:20%;
+  margin-left: 40%;
+  height:60px;
+  border-radius: 20px;
+}
+
+#createFade{
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+#formFade{
+  opacity: 0;
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+.content{
+  width:80%;
+  border-radius: 20px;
+  background:rgba(100, 100, 100, 0.5);
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  padding:10px 10px 10px 10px;
+  margin-left: 10%;
+  margin-top:2%;
+  margin-bottom:2%;
+  height:500px;
+}
+
+.contentSlide{
+  animation-name: slidedown;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+#sections{
+  margin-top: -5%;
+}
+
+
+
+
+/* --------------
+------------------
+------------------*/
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1022px) {
+  nav {
+    width: 60%;
+    margin-left: 20%; }
+
+  #splash {
+    height: 680px;
+    width: 100%; }
+
+  #about {
+    height: 700px; }
+    #about h2 {
+      margin-top: 0px; }
+
+  #paragraph {
+    margin-top: 50px;
+    height: 400px; }
+
+  #map {
+    height: 600px;
+    margin-top: -170px; }
+
+  #why {
+    height: 700px; }
+    #why h2 {
+      margin-top: 40px;
+      margin-bottom: 50px; }
+
+  #whygrid {
+    width: 90%; }
+
+  .why {
+    height: 300px; }
+
+  .whyImage {
+    height: 120px; }
+
+  .whyTitle {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 20px; }
+
+  .whyWords {
+    width: 100%;
+    height: 150px;
+    overflow: hidden; }
+
+  .hiringContainer {
+    width: 40%;
+    height: 420px;
+    margin-left: 10%;
+    margin-top: 70px; }
+
+  #hiringColumn {
+    height: 550px;
+    background-color: #080852; }
+    #hiringColumn p {
+      height: 300px;
+      overflow: hidden; }
+
+  #whiteLine {
+    height: 8px;
+    margin-top: 0; }
+
+  .hiring {
+    height: 150px; }
+
+  #circleContainer {
+    height: 40px;
+    width: 40%;
+    float: right;
+    margin-left: 8%;
+    margin-top: 100px; }
+
+  .circle {
+    border-radius: 50%;
+    border: solid;
+    width: 20%;
+    margin-left: 5%;
+    height: 30px;
+    margin-top: 0px;
+    float: left; }
+
+  #video {
+    margin-top: 0px; }
+
+  #mainVideo {
+    height: 431px;
+    width: 80%;
+    margin-left: 10%; }
+
+  #thumbContainer {
+    width: 70%;
+    margin-left: 15%; }
+
+  .thumb {
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+
+  .thumbImage {
+    background-size: cover;
+    height: 144px; }
+
+  .top {
+    width: 80%;
+    height: 20px;
+    margin-left: 10%;
+    margin-top: 5px; }
+
+  .middle {
+    display: none; }
+
+  .bottom {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5px;
+    height: 20px; }
+
+  #newsText {
+    margin-top: -40px;
+    height: 350px; }
+    #newsText p {
+      height: 200px;
+      overflow: hidden; }
+
+  #newsImage {
+    height: 350px; }
+
+  #news {
+    margin-top: 100px; }
+
+  #firstSocial {
+    margin-left: 17%; } }
+@media only screen and (max-width: 768px) {
+  nav {
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 1%; }
+    nav ul li {
+      display: inline;
+      margin-left: 5%;
+      font-size: 1.5em; }
+
+  #splash {
+    height: 570px; }
+
+  #logo {
+    width: 35%;
+    margin-left: 31%;
+    margin-top: -600px;
+    position: relative;
+    z-index: 1; }
+
+  #paragraph {
+    margin-top: 20px;
+    height: 300px;
+    overflow: scroll; }
+
+  #map {
+    height: 500px;
+    margin-top: -70px; }
+
+  #about {
+    height: 600px; }
+    #about h2 {
+      margin-top: 0px;
+      font-size: 3em; }
+
+  .top {
+    width: 60%;
+    height: 30px;
+    margin-left: 20%;
+    margin-top: 10px; }
+
+  .middle {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: -15px;
+    margin-bottom: 30px;
+    height: 80px; }
+
+  .bottom {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 15px;
+    height: 30px; }
+
+  .social {
+    margin-top: 10%; }
+
+  #footerLogo {
+    height: 130px; } }
+@media only screen and (max-width: 600px) {
+  #backgroundVideo {
+    display: none; }
+
+  #splash {
+    height: 600px;
+    background-color: black; }
+
+  #logo {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 30%; }
+
+  #paragraph {
+    margin-top: 50px;
+    height: 260px;
+    overflow: scroll; }
+
+  #map {
+    height: 260px;
+    margin-top: 50px;
+    margin-bottom: 40px; }
+
+  #about {
+    height: 550px; }
+    #about h2 {
+      margin-top: 30px;
+      font-size: 2.5em;
+      width: 60%; }
+
+  #why {
+    height: 650px; }
+    #why h2 {
+      margin-top: 20px;
+      margin-bottom: 15px; }
+
+  #whygrid {
+    width: 90%; }
+
+  #why {
+    height: 670px; }
+    #why h2 {
+      margin-top: 10px;
+      font-size: 2em;
+      margin-bottom: 20px; }
+
+  .whyImage {
+    height: 100px;
+    width: 60%;
+    margin-left: 20%; }
+
+  .whyTitle {
+    height: 30px;
+    margin-top: 5px;
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 5px; }
+
+  .whyWords {
+    width: 95%;
+    height: 100px;
+    margin-left: 5%; }
+
+  .hiring {
+    height: 140px;
+    border-style: solid;
+    margin-bottom: 18px; }
+
+  .hiringContainer {
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 20px; }
+
+  #hiringColumn {
+    height: 500px;
+    text-align: center;
+    margin-top: 20px; }
+    #hiringColumn p {
+      width: 70%;
+      margin: 0 auto;
+      margin-top: 40px;
+      height: 280px; }
+
+  .topHiring {
+    margin-top: 0px; }
+
+  #who {
+    height: 650px;
+    margin-top: 30px; }
+
+  #video {
+    margin-top: 0px;
+    height: 650px; }
+
+  #mainVideo {
+    height: 270px; }
+
+  #thumbContainer {
+    width: 80%;
+    margin-left: 10%; }
+
+  .thumb {
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
+  .thumbImage {
+    background-color: green;
+    height: 94px; }
+
+  #newsText {
+    height: 300px; }
+
+  #newsImage {
+    height: 300px; }
+
+  #news {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0%; }
+
+  #innerContainer {
+    width: 100%;
+    height: 650px;
+    margin-top: 70px; }
+
+  .inner{
+    width:95%;
+  }
+
+  #leftside {
+    height: 300px;
+    padding-top: 2%; }
+    #leftside h3 {
+      text-align: center;
+      font-size: 3em; }
+    #leftside #variouslinks {
+      width: 45%;
+      margin: 0 auto;
+      height: 40px;
+      margin-top: 6%; }
+
+  .social {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 3%; }
+
+  #firstSocial {
+    margin-left: 25%; }
+
+  #rightside {
+    height: 500px; }
+    #rightside h3 {
+      text-align: center;
+      margin-top: 3%;
+      font-size: 2em; }
+
+  .shortform {
+    width: 70%;
+    height: 30px;
+    background-color: white;
+    margin-left: 15%;
+    margin-top: 3%; }
+
+  #tallform {
+    width: 70%;
+    height: 150px;
+    margin-left: 15%;
+    background-color: white;
+    margin-top: 5%; }
+
+  #formbutton {
+    width: 30%;
+    height: 40px;
+    margin-left: 35%;
+    background-color: white;
+    margin-top: 7%; }
+
+  #footer {
+    height: 200px;
+    padding-top: 30px;
+    margin-top: 148px;
+    width: 100%; }
+
+  .footerItems {
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px; }
+
+  #footerLogo {
+    height: 80px; }
+
+  .topItem {
+    margin-bottom: 20px; }
+
+  .sidenav {
+    opacity: 0.9;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #04043c;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s; }
+
+  .sidenav a {
+    text-align: center;
+    padding: 40px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 3em;
+    font-family: sans-serif;
+    color: white;
+    display: block;
+    transition: 0.3s; }
+
+  .sidenav a:hover, .offcanvas a:focus {
+    color: #a200ff; }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px; }
+
+  #opener {
+    height: 60px;
+    width: 10%;
+    margin-left: 2%;
+    margin-top: 1%; }
+
+  #circleContainer {
+    height: 40px;
+    width: 40%;
+    float: right;
+    margin-left: 8%;
+    margin-top: -20px; }
+
+  .circle {
+    border-radius: 50%;
+    border: solid;
+    width: 18%;
+    margin-left: 5%;
+    height: 15px;
+    margin-top: 0px;
+    float: left; } }
+@media only screen and (max-width: 400px) {
+  #backgroundVideo {
+    display: none; }
+
+  #splash {
+    height: 500px;
+    width: 100%;
+    background-color: black; }
+
+  #logo {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50%; }
+
+  #paragraph {
+    margin-top: 50px;
+    height: 260px;
+    overflow: scroll; }
+
+  #map {
+    height: 260px;
+    margin-top: 50px;
+    margin-bottom: 40px; }
+
+  #about {
+    height: 550px; }
+    #about h2 {
+      margin-top: 30px;
+      font-size: 2.5em;
+      width: 60%; }
+
+  #why {
+    height: 650px; }
+    #why h2 {
+      margin-top: 20px;
+      margin-bottom: 15px; }
+
+  #whygrid {
+    width: 90%; }
+
+  #why {
+    height: 670px; }
+    #why h2 {
+      margin-top: 10px;
+      font-size: 2em;
+      margin-bottom: 20px; }
+
+  .whyImage {
+    height: 100px; }
+
+  .whyTitle {
+    height: 30px;
+    margin-top: 5px;
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 5px; }
+
+  .whyWords {
+    width: 95%;
+    height: 100px;
+    margin-left: 5%; }
+
+  .hiring {
+    height: 140px;
+    border-style: solid;
+    margin-bottom: 18px; }
+
+  .hiringContainer {
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 20px; }
+
+  #hiringColumn {
+    height: 500px;
+    text-align: center;
+    margin-top: 20px; }
+    #hiringColumn p {
+      width: 70%;
+      margin: 0 auto;
+      margin-top: 40px;
+      height: 280px; }
+
+  .topHiring {
+    margin-top: 0px; }
+
+  #who {
+    height: 650px;
+    margin-top: 30px; }
+
+  #video {
+    margin-top: 0px;
+    height: 650px; }
+
+  #mainVideo {
+    height: 180px; }
+
+  #thumbContainer {
+    width: 80%;
+    margin-left: 10%; }
+
+  .thumb {
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
+  .thumbImage {
+    background-color: green;
+    height: 94px; }
+
+  #newsText {
+    height: 300px; }
+
+  #newsImage {
+    height: 300px; }
+
+  #news {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -20%; }
+
+  #innerContainer {
+    width: 100%;
+    height: 650px;
+    margin-top: 70px;
+    background-repeat: repeat; }
+
+  #leftside {
+    height: 300px;
+    padding-top: 2%; }
+    #leftside h3 {
+      text-align: center;
+      font-size: 3em; }
+    #leftside #variouslinks {
+      width: 45%;
+      margin: 0 auto;
+      height: 40px;
+      margin-top: 6%; }
+
+  .social {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 7%; }
+
+  #firstSocial {
+    margin-left: 15%; }
+
+  #rightside {
+    height: 500px; }
+    #rightside h3 {
+      text-align: center;
+      margin-top: 3%;
+      font-size: 2em; }
+
+  .shortform {
+    width: 70%;
+    height: 30px;
+    background-color: white;
+    margin-left: 15%;
+    margin-top: 3%; }
+
+  #tallform {
+    width: 70%;
+    height: 150px;
+    margin-left: 15%;
+    background-color: white;
+    margin-top: 5%; }
+
+  #formbutton {
+    width: 30%;
+    height: 40px;
+    margin-left: 35%;
+    background-color: white;
+    margin-top: 7%; }
+
+  #footer {
+    height: 155px;
+    padding-top: 30px;
+    margin-top: 148px;
+    width: 100%; }
+
+  .footerItems {
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px; }
+
+  #footerLogo {
+    height: 60px; }
+
+  .sidenav {
+    opacity: 0.9;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #04043c;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s; }
+
+  .sidenav a {
+    text-align: center;
+    padding: 40px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 3em;
+    font-family: sans-serif;
+    color: white;
+    display: block;
+    transition: 0.3s; }
+
+  .sidenav a:hover, .offcanvas a:focus {
+    color: #a200ff; }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px; }
+
+  #opener {
+    height: 40px;
+    width: 10%;
+    margin-left: 2%;
+    margin-top: 5%; }
+
+  #circleContainer {
+    height: 40px;
+    width: 40%;
+    float: right;
+    margin-left: 8%;
+    margin-top: -20px; }
+
+  .circle {
+    border-radius: 50%;
+    border: solid;
+    width: 20%;
+    margin-left: 5%;
+    height: 15px;
+    margin-top: 0px;
+    float: left; } }
+
+/*# sourceMappingURL=app.css.map */
