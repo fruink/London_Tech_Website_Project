@@ -8,7 +8,7 @@ London as a Tech Destination
 
 LEDC - Project Overview & Requirements:
 
-    - As time progresses and new pratical skills come in demand LEDC is committed to attracting talet and matching the right people to the right jobs. With a lack of skilled talents being the number one challenge for all companies, it's our job to make a campaign to help bring awareness to young professionals and technology campanies.
+As time progresses and new pratical skills come in demand LEDC is committed to attracting talet and matching the right people to the right jobs. With a lack of skilled talents being the number one challenge for all companies, it's our job to make a campaign to help bring awareness to young professionals and technology campanies.
     
  Why London is a destination city for skilled talent
 
